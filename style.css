@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.bold{
+    font-weight: bold;
+}
+
+
+/*-------Navbar-----*/ 
+
+.navbar img{
+    width: 50%;
+}
+.navbar ul li a {
+    font-weight: bold;
+    font-size: 18px;
+    transition: all ease .10s;
+}
+/*-------Hero-----*/ 
+.hero p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 8rem;
+}
+.hero img{
+    width: 95%;
+    transition: transform .5s;
+}
+.hero img:hover{
+    transform: scale(1.1);
+}
+/*-------Flags-----*/ 
+.flags img{
+    width: 100%;
+}
+/*-------Footer-----*/ 
+.footer{
+    background: rgb(240, 231, 231);
+    padding-top:3rem ;
+}
+.footer a{
+    text-decoration: none;
+}
+footer{
+    background: beige;
+}
+footer a {
+    text-decoration: none;
+}
+.footer p{
+    font-size: 16px;
+}
+.footer span{
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+/*-------Introduction-----*/
+.intro-head h3{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 35px;
+} 
+.intro-head p{
+    font-size: 18px;
+}
+.intro-head h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.intro-icon{
+    font-size: 30px;
+}  
+}
+.with {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+/*-------Appreciation-----*/ 
+.app-letter img{
+    height: 25rem;
+    width: 20rem;
+    border: 1px solid rgb(194, 174, 174);
+}
+/*-------Deployment Procedure-----*/
+.process p{
+    font-size: 17px;
+    margin-top: 1rem;
+}
+.process p ul li {
+    font-size: 15px;
+    margin-right: 5rem;
+}
+.process p span{
+    font-size: 20px;
+    font-weight: 600;
+}
+/*-------Categories-----*/
+.hero-cat img{
+    height: 10rem;
+    width: 17rem;
+    transition: transform .5s;
+}
+.hero-cat img:hover{
+    transform: scale(1.1);
+}
+.categories-details h3{
+    margin: 2rem 0;
+}
+/*-------Clients------*/
+.clients .c-class img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.clients .c-class p{
+    padding-top: 7px;
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.clients .c-class {
+    margin-top: 1rem;
+    align-items: center;
+}
+/*-------Sample Documents-----*/
+.sample-doc a{
+    text-decoration: none;
+}
+/*-------PRIVACY POLICY-----*/
+.privacy p{
+    margin: 2rem 0;
+font-size: 19px;
+}
+.privacy p span{
+    font-size: 21px;
+    font-weight: 800;
+}
